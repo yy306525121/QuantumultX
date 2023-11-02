@@ -1,2 +1,13 @@
 host-suffix, baidu.com, direct
 host, download-cdn.jetbrains.com, direct
+
+# PT站
+host-suffix, hdhome.org, direct
+host-suffix, m-team.cc, direct
+host-suffix, audiences.me, direct
+host-suffix, springsunday.net, direct
+host-suffix, hhanclub.top, direct
+host-suffix, nicept.net, direct
+host-suffix, okpt.net, direct
+host-suffix, piggo.me, direct
+host-suffix, carpt.net, direct
