@@ -19,4 +19,4 @@ host-suffix, codeyang.cn, direct
 host-suffix, synology.me, direct
 
 # 测速网站
-host, www.test-ipv6.com, direct
+host-suffix, test-ipv6.com, direct
