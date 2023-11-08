@@ -14,6 +14,7 @@ host-suffix, carpt.net, direct
 host-suffix, rousi.zip, direct
 host-suffix, ptvicomo.net, direct
 host-suffix, xingtan.one, direct
+host-suffix, hdkyl.in, direct
 
 
 # 其他网站
@@ -22,4 +23,3 @@ host-suffix, synology.me, direct
 
 # 测速网站
 host-suffix, test-ipv6.com, direct
-host-suffix, hdkyl.in, direct
