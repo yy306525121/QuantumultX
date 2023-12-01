@@ -27,3 +27,6 @@ host-suffix, test-ipv6.com, direct
 
 # jrebel激活
 host, jrebel.qekang.com, direct
+
+# plex
+host-keyword, plex, direct
