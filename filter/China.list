@@ -1,5 +1,6 @@
 host-suffix, baidu.com, direct
 host, download-cdn.jetbrains.com, direct
+host, juejin.cn, direct
 
 # PT站
 host-suffix, hdhome.org, direct
