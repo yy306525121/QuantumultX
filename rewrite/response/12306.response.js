@@ -6,7 +6,7 @@ if (obj.placementNo === 'G0054') {
         "materialsList": [],
         "rid": "93f69e42bdea4369a5d4100533b8bba9",
         "advertParam": {
-            "skipTime": 3000,
+            "skipTime": 1,
             "showSkipBtn": 0,
             "skipTimeAgain": 0,
             "chacheTime": 600000,
