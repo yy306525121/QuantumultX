@@ -3,11 +3,10 @@ rsp = {};
 if (obj.placementNo === 'G0054') {
     rsp = {
         "code": "00",
-        "materialsList": [
-            ],
+        "materialsList": [],
         "rid": "93f69e42bdea4369a5d4100533b8bba9",
         "advertParam": {
-        "skipTime": 3000,
+            "skipTime": 3000,
             "showSkipBtn": 0,
             "skipTimeAgain": 0,
             "chacheTime": 600000,
@@ -15,7 +14,7 @@ if (obj.placementNo === 'G0054') {
             "isDefault": 0,
             "displayNumDi": 1,
             "index": 1
-    }
+        }
     }
 } else {
     rsp = {
