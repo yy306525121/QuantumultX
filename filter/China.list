@@ -31,3 +31,6 @@ host, jrebel.qekang.com, direct
 
 # plex
 host-keyword, plex, direct
+
+# 飞书
+host-suffix, feishu.cn, direct
