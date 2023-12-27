@@ -24,6 +24,7 @@ host-suffix, leaves.red, direct
 # 其他网站
 host-suffix, codeyang.cn, direct
 host-suffix, synology.me, direct
+host-suffix, ximalaya.com, direct
 
 # 测速网站
 host-suffix, test-ipv6.com, direct
