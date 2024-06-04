@@ -2,6 +2,7 @@
 
 host-suffix,google.com,PROXY
 host-suffix,fsm.name,PROXY
+host-suffix, jetbrains.com,PROXY
 
 # (DNS Cache Pollution)
 # > Amazon
