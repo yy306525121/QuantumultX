@@ -1,49 +1,466 @@
-host-suffix, baidu.com, direct
-host, download-cdn.jetbrains.com, direct
-host, cache-redirector.jetbrains.com, direct
-host, juejin.cn, direct
+# 国内网站
+host,download-cdn.jetbrains.com,DIRECT
+host,cache-redirector.jetbrains.com,DIRECT
+host,juejin.cn,DIRECT
 
 # PT站
-host-suffix, hdhome.org, direct
-host-suffix, m-team.cc, direct
-host-suffix, audiences.me, direct
-host-suffix, springsunday.net, direct
-host-suffix, hhanclub.top, direct
-host-suffix, nicept.net, direct
-host-suffix, okpt.net, direct
-host-suffix, piggo.me, direct
-host-suffix, carpt.net, direct
-host-suffix, rousi.zip, direct
-host-suffix, ptvicomo.net, direct
-host-suffix, xingtan.one, direct
-host-suffix, hdkyl.in, direct
-host-suffix, btschool.club, direct
-host-suffix, hdfans.org, direct
-host-suffix, leaves.red, direct
-host-suffix, star-space.net, direct
-host-suffix, agsvpt.com, direct
-host-suffix, 0ff.cc, direct
-host-suffix, translate.zvo.cn, direct
-host-suffix, hdsky.me, direct
+host-suffix,hdhome.org,DIRECT
+host-suffix,m-team.cc,DIRECT
+host-suffix,audiences.me,DIRECT
+host-suffix,springsunday.net,DIRECT
+host-suffix,hhanclub.top,DIRECT
+host-suffix,nicept.net,DIRECT
+host-suffix,okpt.net,DIRECT
+host-suffix,piggo.me,DIRECT
+host-suffix,carpt.net,DIRECT
+host-suffix,rousi.zip,DIRECT
+host-suffix,ptvicomo.net,DIRECT
+host-suffix,xingtan.one,DIRECT
+host-suffix,hdkyl.in,DIRECT
+host-suffix,btschool.club,DIRECT
+host-suffix,hdfans.org,DIRECT
+host-suffix,leaves.red,DIRECT
+host-suffix,star-space.net,DIRECT
+host-suffix,agsvpt.com,DIRECT
+host-suffix,0ff.cc,DIRECT
+host-suffix,translate.zvo.cn,DIRECT
+host-suffix,hdsky.me,DIRECT
 
 
 # 其他网站
-host-suffix, codeyang.cn, direct
-host-suffix, synology.me, direct
-host-suffix, ximalaya.com, direct
-host-suffix, fastgpt.in, direct
+host-suffix,codeyang.cn,DIRECT
+host-suffix,synology.me,DIRECT
+host-suffix,fastgpt.in,DIRECT
 
-# 测速网站
-host-suffix, test-ipv6.com, direct
+#jrebel激活
+host,jrebel.qekang.com,DIRECT
 
-# jrebel激活
-host, jrebel.qekang.com, direct
+#飞书
+host-suffix,feishu.cn,DIRECT
 
-# plex
-host-keyword, plex, direct
+host-suffix,jasp-stats.org,DIRECT
 
-# 飞书
-host-suffix, feishu.cn, direct
 
-host-suffix, wps.cn, direct
-host-suffix, jasp-stats.org, direct
+# China Area Network
+# > 360
+host-suffix,qhres.com,DIRECT
+host-suffix,qhimg.com,DIRECT
+# > Alibaba
+USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
+host-suffix,alibaba.com,DIRECT
+host-suffix,alibabausercontent.com,DIRECT
+host-suffix,alicdn.com,DIRECT
+host-suffix,alikunlun.com,DIRECT
+host-suffix,alipay.com,DIRECT
+host-suffix,amap.com,DIRECT
+host-suffix,autonavi.com,DIRECT
+host-suffix,dingtalk.com,DIRECT
+host-suffix,mxhichina.com,DIRECT
+host-suffix,soku.com,DIRECT
+host-suffix,taobao.com,DIRECT
+host-suffix,tmall.com,DIRECT
+host-suffix,tmall.hk,DIRECT
+host-suffix,ykimg.com,DIRECT
+host-suffix,youku.com,DIRECT
+host-suffix,xiami.com,DIRECT
+host-suffix,xiami.net,DIRECT
+# > Apple
+host-suffix,aaplimg.com,DIRECT
+host-suffix,apple.co,DIRECT
+host-suffix,apple.com,DIRECT
+host-suffix,apple-cloudkit.com,DIRECT
+host-suffix,appstore.com,DIRECT
+host-suffix,cdn-apple.com,DIRECT
+host-suffix,icloud.com,DIRECT
+host-suffix,icloud-content.com,DIRECT
+host-suffix,me.com,DIRECT
+host-suffix,mzstatic.com,DIRECT
+# > Baidu
+host-suffix,baidu.com,DIRECT
+host-suffix,baidubcr.com,DIRECT
+host-suffix,baidupan.com,DIRECT
+host-suffix,baidupcs.com,DIRECT
+host-suffix,bdimg.com,DIRECT
+host-suffix,bdstatic.com,DIRECT
+host-suffix,yunjiasu-cdn.net,DIRECT
+# > Battle
+host-suffix,battle.net,DIRECT
+host-suffix,blizzard.com,DIRECT
+# > bilibili
+host-suffix,acgvideo.com,DIRECT
+host-suffix,biliapi.com,DIRECT
+host-suffix,biliapi.net,DIRECT
+host-suffix,bilibili.com,DIRECT
+host-suffix,bilibili.tv,DIRECT
+host-suffix,hdslb.com,DIRECT
+# > ByteDance
+host-suffix,feiliao.com,DIRECT
+host-suffix,pstatp.com,DIRECT
+host-suffix,snssdk.com,DIRECT
+host-suffix,iesdouyin.com,DIRECT
+host-suffix,toutiao.com,DIRECT
+# > CCTV
+host-suffix,cctv.com,DIRECT
+host-suffix,cctvpic.com,DIRECT
+host-suffix,livechina.com,DIRECT
+# > ChinaTelecom
+host-suffix,21cn.com,DIRECT
+# > Clubhouse
+IP-CIDR,3.0.163.78/32,DIRECT
+IP-CIDR,13.230.60.35/32,DIRECT
+IP-CIDR,23.98.43.152/32,DIRECT
+IP-CIDR,35.156.231.150/32,DIRECT
+IP-CIDR,35.168.106.53/32,DIRECT
+IP-CIDR,35.178.208.187/32,DIRECT
+IP-CIDR,45.40.48.11/32,DIRECT
+IP-CIDR,45.40.48.114/32,DIRECT
+IP-CIDR,50.18.128.22/32,DIRECT
+IP-CIDR,52.52.84.170/32,DIRECT
+IP-CIDR,52.58.56.244/32,DIRECT
+IP-CIDR,52.178.26.110/32,DIRECT
+IP-CIDR,52.194.158.59/32,DIRECT
+IP-CIDR,52.221.46.208/32,DIRECT
+IP-CIDR,54.178.26.110/32,DIRECT
+IP-CIDR,69.28.51.148/32,DIRECT
+IP-CIDR,103.65.41.130/32,DIRECT
+IP-CIDR,103.65.41.132/32,DIRECT
+IP-CIDR,103.65.41.137/32,DIRECT
+IP-CIDR,103.65.41.139/32,DIRECT
+IP-CIDR,103.65.41.152/32,DIRECT
+IP-CIDR,103.65.41.157/32,DIRECT
+IP-CIDR,103.65.41.159/32,DIRECT
+IP-CIDR,103.65.41.166/32,DIRECT
+IP-CIDR,103.65.41.169/32,DIRECT
+IP-CIDR,128.1.105.156/32,DIRECT
+IP-CIDR,129.227.57.130/32,DIRECT
+IP-CIDR,129.227.57.133/32,DIRECT
+IP-CIDR,129.227.57.135/32,DIRECT
+IP-CIDR,129.227.57.136/32,DIRECT
+IP-CIDR,129.227.57.138/32,DIRECT
+IP-CIDR,129.227.57.139/32,DIRECT
+IP-CIDR,129.227.57.144/32,DIRECT
+IP-CIDR,129.227.57.146/32,DIRECT
+IP-CIDR,129.227.57.147/32,DIRECT
+IP-CIDR,129.227.234.85/32,DIRECT
+IP-CIDR,148.153.126.147/32,DIRECT
+IP-CIDR,148.153.172.73/32,DIRECT
+IP-CIDR,148.153.172.74/32,DIRECT
+IP-CIDR,148.153.172.75/32,DIRECT
+IP-CIDR,148.153.172.76/32,DIRECT
+IP-CIDR,148.153.172.77/32,DIRECT
+IP-CIDR,164.52.102.33/32,DIRECT
+IP-CIDR,164.52.102.66/32,DIRECT
+IP-CIDR,164.52.102.67/32,DIRECT
+IP-CIDR,164.52.102.68/32,DIRECT
+IP-CIDR,164.52.102.69/32,DIRECT
+IP-CIDR,164.52.102.70/32,DIRECT
+IP-CIDR,164.52.102.75/32,DIRECT
+IP-CIDR,164.52.102.76/32,DIRECT
+IP-CIDR,164.52.102.77/32,DIRECT
+IP-CIDR,164.52.102.91/32,DIRECT
+IP-CIDR,199.190.44.36/32,DIRECT
+IP-CIDR,199.190.44.37/32,DIRECT
+IP-CIDR,202.181.136.107/32,DIRECT
+IP-CIDR,202.181.136.108/32,DIRECT
+IP-CIDR,202.181.136.234/32,DIRECT
+IP-CIDR,202.226.25.166/32,DIRECT
+# > DiDi
+host-suffix,didialift.com,DIRECT
+host-suffix,didiglobal.com,DIRECT
+host-suffix,udache.com,DIRECT
+# > HunanTV
+host-suffix,hitv.com,DIRECT
+host-suffix,mgtv.com,DIRECT
+# > iQiyi
+host-suffix,iqiyi.com,DIRECT
+host-suffix,iqiyipic.com,DIRECT
+host-suffix,71.am,DIRECT
+# > JD
+host-suffix,jd.com,DIRECT
+host-suffix,jd.hk,DIRECT
+host-suffix,jdpay.com,DIRECT
+host-suffix,360buyimg.com,DIRECT
+# > Kingsoft
+host-suffix,iciba.com,DIRECT
+host-suffix,ksosoft.com,DIRECT
+# > Meitu
+host-suffix,meitu.com,DIRECT
+host-suffix,meitudata.com,DIRECT
+host-suffix,meitustat.com,DIRECT
+host-suffix,meipai.com,DIRECT
+# > Meituan
+host-suffix,dianping.com,DIRECT
+host-suffix,dpfile.com,DIRECT
+host-suffix,meituan.com,DIRECT
+host-suffix,meituan.net,DIRECT
+# > MI
+host-suffix,duokan.com,DIRECT
+host-suffix,mi.com,DIRECT
+host-suffix,mi-img.com,DIRECT
+host-suffix,miui.com,DIRECT
+host-suffix,miwifi.com,DIRECT
+host-suffix,xiaomi.com,DIRECT
+host-suffix,xiaomi.net,DIRECT
+# > Microsoft
+# host-suffix,microsoft.com,DIRECT
+# host-suffix,msecnd.net,DIRECT
+# host-suffix,office.com,DIRECT
+# host-suffix,office365.com,DIRECT
+# host-suffix,s-microsoft.com,DIRECT
+# host-suffix,windows.com,DIRECT
+host-suffix,visualstudio.com,DIRECT
+# >> Microsoft Software Download
+host,software-download.microsoft.com,DIRECT
+host-keyword,-microsoft-com.akamaized.net,DIRECT
+# >> OneDrive
+# host-suffix,1drv.com,DIRECT
+# host-suffix,storage.live.com,DIRECT
+# >> Outlook
+host-suffix,hotmail.com,DIRECT
+host-suffix,outlook.com,DIRECT
+host,outlook.office365.com,DIRECT
+host,smtp.office365.com,DIRECT
+# >> Windows Server Update Services
+host-suffix,windowsupdate.microsoft.com,DIRECT
+host-suffix,update.microsoft.com,DIRECT
+host-suffix,windowsupdate.com,DIRECT
+host,download.microsoft.com,DIRECT
+host,wustat.windows.com,DIRECT
+host,ntservicepack.microsoft.com,DIRECT
+# > NetEase
+USER-AGENT,NeteaseMusic*,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
+host-suffix,163.com,DIRECT
+host-suffix,126.com,DIRECT
+host-suffix,126.net,DIRECT
+host-suffix,127.net,DIRECT
+host-suffix,163yun.com,DIRECT
+host-suffix,lofter.com,DIRECT
+host-suffix,netease.com,DIRECT
+host-suffix,ydstatic.com,DIRECT
+# > PayPal
+USER-AGENT,PayPal*,DIRECT
+host-suffix,paypal.com,DIRECT
+host-suffix,paypal.me,DIRECT
+host-suffix,paypalobjects.com,DIRECT
+# > Sina
+host-suffix,sina.com,DIRECT
+host-suffix,weibo.com,DIRECT
+host-suffix,weibocdn.com,DIRECT
+# > Sohu
+host-suffix,sohu.com,DIRECT
+host-suffix,sohucs.com,DIRECT
+host-suffix,sohu-inc.com,DIRECT
+host-suffix,v-56.com,DIRECT
+# > Sogo
+host-suffix,sogo.com,DIRECT
+host-suffix,sogou.com,DIRECT
+host-suffix,sogoucdn.com,DIRECT
+# > Steam
+host-suffix,steamcontent.com,DIRECT
+host-suffix,steampowered.com,DIRECT
+host-suffix,steamstatic.com,DIRECT
+# > Tencent
+USER-AGENT,MicroMessenger*,DIRECT
+USER-AGENT,WeChat*,DIRECT
+USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
+host-suffix,gcloudcs.com,DIRECT
+host-suffix,gtimg.com,DIRECT
+host-suffix,idqqimg.com,DIRECT
+host-suffix,myapp.com,DIRECT
+host-suffix,myqcloud.com,DIRECT
+host-suffix,qq.com,DIRECT
+host-suffix,qqmail.com,DIRECT
+host-suffix,servicewechat.com,DIRECT
+host-suffix,tencent.com,DIRECT
+host-suffix,tencent-cloud.net,DIRECT
+host-suffix,tenpay.com,DIRECT
+host-suffix,wechat.com,DIRECT
+IP-CIDR,182.254.116.0/24,DIRECT
+IP-CIDR,203.205.254.0/23,DIRECT
+# >> PUBG Mobile
+host-suffix,igamecj.com,DIRECT
+host,file-igamecj.akamaized.net,DIRECT
+IP-CIDR,45.40.220.0/22,DIRECT
+IP-CIDR,150.109.124.0/23,DIRECT
+# > Content Delivery Network
+host-suffix,ccgslb.com,DIRECT
+host-suffix,ccgslb.net,DIRECT
+host-suffix,chinanetcenter.com,DIRECT
+host-suffix,meixincdn.com,DIRECT
+host-suffix,ourdvs.com,DIRECT
+host-suffix,staticdn.net,DIRECT
+host-suffix,wangsu.com,DIRECT
+# > IP Query
+host-suffix,ipip.net,DIRECT
+host-suffix,ip.la,DIRECT
+host-suffix,ip.sb,DIRECT
+host-suffix,ip-cdn.com,DIRECT
+host-suffix,ipv6-test.com,DIRECT
+host-suffix,myip.la,DIRECT
+host-suffix,test-ipv6.com,DIRECT
+host-suffix,whatismyip.com,DIRECT
+host,ip.istatmenus.app,DIRECT
+host,sms.imagetasks.com,DIRECT
+# > Speed Test
+# host-suffix,speedtest.net,DIRECT
+host-suffix,netspeedtestmaster.com,DIRECT
+host,speedtest.macpaw.com,DIRECT
+# > Private Tracker
+host-suffix,acg.rip,DIRECT
+host-suffix,animebytes.tv,DIRECT
+host-suffix,awesome-hd.me,DIRECT
+host-suffix,broadcasthe.net,DIRECT
+host-suffix,chdbits.co,DIRECT
+host-suffix,classix-unlimited.co.uk,DIRECT
+host-suffix,comicat.org,DIRECT
+host-suffix,empornium.me,DIRECT
+host-suffix,gazellegames.net,DIRECT
+host-suffix,hdbits.org,DIRECT
+host-suffix,hdchina.org,DIRECT
+host-suffix,hddolby.com,DIRECT
+host-suffix,hdhome.org,DIRECT
+host-suffix,hdsky.me,DIRECT
+host-suffix,icetorrent.org,DIRECT
+host-suffix,jpopsuki.eu,DIRECT
+host-suffix,keepfrds.com,DIRECT
+host-suffix,madsrevolution.net,DIRECT
+host-suffix,morethan.tv,DIRECT
+host-suffix,m-team.cc,DIRECT
+host-suffix,myanonamouse.net,DIRECT
+host-suffix,nanyangpt.com,DIRECT
+host-suffix,ncore.cc,DIRECT
+host-suffix,open.cd,DIRECT
+host-suffix,ourbits.club,DIRECT
+host-suffix,passthepopcorn.me,DIRECT
+host-suffix,privatehd.to,DIRECT
+host-suffix,pterclub.com,DIRECT
+host-suffix,redacted.ch,DIRECT
+host-suffix,springsunday.net,DIRECT
+host-suffix,tjupt.org,DIRECT
+host-suffix,totheglory.im,DIRECT
+# > Other
+host-suffix,cn,DIRECT
+host-suffix,115.com,DIRECT
+host-suffix,360in.com,DIRECT
+host-suffix,51ym.me,DIRECT
+host-suffix,8686c.com,DIRECT
+host-suffix,99.com,DIRECT
+host-suffix,abchina.com,DIRECT
+host-suffix,accuweather.com,DIRECT
+host-suffix,agora.io,DIRECT
+host-suffix,aicoinstorge.com,DIRECT
+host-suffix,air-matters.com,DIRECT
+host-suffix,air-matters.io,DIRECT
+host-suffix,aixifan.com,DIRECT
+host-suffix,amd.com,DIRECT
+host-suffix,b612.net,DIRECT
+host-suffix,bdatu.com,DIRECT
+host-suffix,beitaichufang.com,DIRECT
+host-suffix,booking.com,DIRECT
+host-suffix,bstatic.com,DIRECT
+host-suffix,cailianpress.com,DIRECT
+host-suffix,camera360.com,DIRECT
+host-suffix,chaoxing.com,DIRECT
+host-suffix,chaoxing.com,DIRECT
+host-suffix,chinaso.com,DIRECT
+host-suffix,chuimg.com,DIRECT
+host-suffix,chunyu.mobi,DIRECT
+host-suffix,cmbchina.com,DIRECT
+host-suffix,cmbimg.com,DIRECT
+host-suffix,coolapk.com,DIRECT
+host-suffix,ctrip.com,DIRECT
+host-suffix,dfcfw.com,DIRECT
+host-suffix,dji.net,DIRECT
+host-suffix,docschina.org,DIRECT
+host-suffix,douban.com,DIRECT
+host-suffix,doubanio.com,DIRECT
+host-suffix,douyu.com,DIRECT
+host-suffix,dxycdn.com,DIRECT
+host-suffix,dytt8.net,DIRECT
+host-suffix,eastmoney.com,DIRECT
+host-suffix,eudic.net,DIRECT
+host-suffix,feng.com,DIRECT
+host-suffix,fengkongcloud.com,DIRECT
+host-suffix,frdic.com,DIRECT
+host-suffix,futu5.com,DIRECT
+host-suffix,futunn.com,DIRECT
+host-suffix,gandi.net,DIRECT
+host-suffix,gcores.com,DIRECT
+host-suffix,geilicdn.com,DIRECT
+host-suffix,getpricetag.com,DIRECT
+host-suffix,gifshow.com,DIRECT
+host-suffix,godic.net,DIRECT
+host-suffix,hicloud.com,DIRECT
+host-suffix,hongxiu.com,DIRECT
+host-suffix,hostbuf.com,DIRECT
+host-suffix,huxiucdn.com,DIRECT
+host-suffix,huya.com,DIRECT
+host-suffix,ibm.com,DIRECT
+host-suffix,infinitynewtab.com,DIRECT
+host-suffix,ithome.com,DIRECT
+host-suffix,java.com,DIRECT
+host-suffix,jianguoyun.com,DIRECT
+host-suffix,jianshu.com,DIRECT
+host-suffix,jianshu.io,DIRECT
+host-suffix,jidian.im,DIRECT
+host-suffix,kaiyanapp.com,DIRECT
+host-suffix,kaspersky-labs.com,DIRECT
+host-suffix,keepcdn.com,DIRECT
+host-suffix,kkmh.com,DIRECT
+host-suffix,lanzous.com,DIRECT
+host-suffix,licdn.com,DIRECT
+host-suffix,linkedin.com,DIRECT
+host-suffix,luojilab.com,DIRECT
+host-suffix,maoyan.com,DIRECT
+host-suffix,maoyun.tv,DIRECT
+host-suffix,mls-cdn.com,DIRECT
+host-suffix,mobike.com,DIRECT
+host-suffix,moke.com,DIRECT
+host-suffix,mubu.com,DIRECT
+host-suffix,myzaker.com,DIRECT
+host-suffix,nim-lang-cn.org,DIRECT
+host-suffix,ntp.org,DIRECT
+host-suffix,nvidia.com,DIRECT
+host-suffix,oracle.com,DIRECT
+host-suffix,plex.tv,DIRECT
+host-suffix,qdaily.com,DIRECT
+host-suffix,qidian.com,DIRECT
+host-suffix,qyer.com,DIRECT
+host-suffix,qyerstatic.com,DIRECT
+host-suffix,raychase.net,DIRECT
+host-suffix,ronghub.com,DIRECT
+host-suffix,ruguoapp.com,DIRECT
+host-suffix,sankuai.com,DIRECT
+host-suffix,scomper.me,DIRECT
+host-suffix,seafile.com,DIRECT
+host-suffix,sm.ms,DIRECT
+host-suffix,smzdm.com,DIRECT
+host-suffix,snapdrop.net,DIRECT
+host-suffix,snwx.com,DIRECT
+host-suffix,s-reader.com,DIRECT
+host-suffix,sspai.com,DIRECT
+host-suffix,subhd.tv,DIRECT
+host-suffix,takungpao.com,DIRECT
+host-suffix,teamviewer.com,DIRECT
+host-suffix,tianyancha.com,DIRECT
+host-suffix,tophub.today,DIRECT
+host-suffix,uning.com,DIRECT
+host-suffix,weather.com,DIRECT
+host-suffix,weico.cc,DIRECT
+host-suffix,weidian.com,DIRECT
+host-suffix,xiachufang.com,DIRECT
+host-suffix,xiaoka.tv,DIRECT
+host-suffix,ximalaya.com,DIRECT
+host-suffix,xinhuanet.com,DIRECT
+host-suffix,xmcdn.com,DIRECT
+host-suffix,yangkeduo.com,DIRECT
+host-suffix,yizhibo.com,DIRECT
+host-suffix,zhangzishi.cc,DIRECT
+host-suffix,zhihu.com,DIRECT
+host-suffix,zhihuishu.com,DIRECT
+host-suffix,zhimg.com,DIRECT
+host-suffix,zhuihd.com,DIRECT
+
+host,download.jetbrains.com,DIRECT
+host,images-cn.ssl-images-amazon.com,DIRECT
