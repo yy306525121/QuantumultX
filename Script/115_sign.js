@@ -11,7 +11,8 @@ async function main() {
 
 // 脚本执行入口
 !(async () => {
-	sendMsg('aaaa')
+	sendMsg('aaaaa')
+
 	if (typeof $request !== `undefined`) {
 		sendMsg('开始执行')
 		getCookie();
@@ -57,6 +58,26 @@ function debug(content, title = "debug") {
 		}
 	}
 }
+
+// 发送消息
+async function sendMsg(message) {
+	if (!message) return;
+	try {
+		if ($.isNode()) {
+			try {
+				var notify = require('./sendNotify');
+			} catch (e) {
+				var notify = require('./utils/sendNotify');
+			}
+			await notify.sendNotify($.name, message);
+		} else {
+			$.msg($.name, '', message);
+		}
+	} catch (e) {
+		$.log(`\n\n----- ${$.name} -----\n${message}`);
+	}
+}
+
 
 
 /**
