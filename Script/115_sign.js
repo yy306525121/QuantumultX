@@ -1,6 +1,6 @@
 
 const $ = new Env('115签到');
-$.is_debug = getEnv('is_debug') || 'true';  // 调试模式
+$.is_debug = getEnv('is_debug') || 'false';  // 调试模式
 $.Messages = [];
 
 // 主函数
@@ -28,14 +28,17 @@ async function main() {
 async function getCookie() {
 	try {
 		let msg = ''
+		console.log('获取cookie开始')
 		$.log(`✅ 成功获取 Token`);
+		msg += `新增用户 Token ✅`;
 		if (/points_sign/.test($request.url)) {
 			const { } = body['']
 		} else {
 			$.log(`❌ 获取 Token 失败: ${$.toStr(result)}`);
 		}
+		$.Messages.push(msg), $.log(msg);
 	} catch(e) {
-		
+		$.Messages.push('发生错误');
 	}
 }
 
