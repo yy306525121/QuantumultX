@@ -12,6 +12,7 @@ async function main() {
 // 脚本执行入口
 !(async () => {
 	sendMsg('aaaaa')
+	$.log('aaaaaa')
 
 	if (typeof $request !== `undefined`) {
 		sendMsg('开始执行')
