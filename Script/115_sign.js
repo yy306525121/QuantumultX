@@ -1,6 +1,7 @@
 
 const $ = new Env('115签到');
 $.is_debug = getEnv('is_debug') || 'true';  // 调试模式
+$.Messages = [];
 
 // 主函数
 async function main() {
@@ -11,14 +12,10 @@ async function main() {
 
 // 脚本执行入口
 !(async () => {
-	sendMsg('aaaaa')
-	$.log('aaaaaa')
-
 	if (typeof $request !== `undefined`) {
-		sendMsg('开始执行')
 		getCookie();
 	} else {
-		await main();  // 主函数
+		//await main();  // 主函数
 	}
 })()
 	.catch((e) => $.Messages.push(e.message || e) && $.logErr(e))
@@ -31,10 +28,11 @@ async function main() {
 async function getCookie() {
 	try {
 		let msg = ''
-		debug($request.body)
-		const body = $.toObj($response.body)
+		$.log(`✅ 成功获取 Token`);
 		if (/points_sign/.test($request.url)) {
 			const { } = body['']
+		} else {
+			$.log(`❌ 获取 Token 失败: ${$.toStr(result)}`);
 		}
 	} catch(e) {
 		
