@@ -4,6 +4,9 @@ host-suffix,google.com,PROXY
 host-suffix,fsm.name,PROXY
 host-suffix, jetbrains.com,PROXY
 
+# PT网站
+host-suffix,star-space.net,PROXY
+
 # (DNS Cache Pollution)
 # > Amazon
 host-suffix,amazon.co.jp,PROXY
