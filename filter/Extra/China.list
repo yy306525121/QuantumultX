@@ -23,8 +23,6 @@ host-suffix,agsvpt.com,DIRECT
 host-suffix,0ff.cc,DIRECT
 host-suffix,translate.zvo.cn,DIRECT
 host-suffix,hdsky.me,DIRECT
-host-suffix, audiences.me, DIRECT
-host-suffix, ourbits.club, DIRECT
 
 
 # 其他网站
@@ -335,7 +333,6 @@ host-suffix,open.cd,DIRECT
 host-suffix,ourbits.club,DIRECT
 host-suffix,passthepopcorn.me,DIRECT
 host-suffix,privatehd.to,DIRECT
-host-suffix,pterclub.com,DIRECT
 host-suffix,redacted.ch,DIRECT
 host-suffix,springsunday.net,DIRECT
 host-suffix,tjupt.org,DIRECT
