@@ -3,27 +3,6 @@ host,download-cdn.jetbrains.com,DIRECT
 host,cache-redirector.jetbrains.com,DIRECT
 host,juejin.cn,DIRECT
 
-# PT站
-host-suffix,hdhome.org,DIRECT
-host-suffix,m-team.cc,DIRECT
-host-suffix,springsunday.net,DIRECT
-host-suffix,hhanclub.top,DIRECT
-host-suffix,nicept.net,DIRECT
-host-suffix,okpt.net,DIRECT
-host-suffix,piggo.me,DIRECT
-host-suffix,carpt.net,DIRECT
-host-suffix,rousi.zip,DIRECT
-host-suffix,ptvicomo.net,DIRECT
-host-suffix,xingtan.one,DIRECT
-host-suffix,hdkyl.in,DIRECT
-host-suffix,btschool.club,DIRECT
-host-suffix,hdfans.org,DIRECT
-host-suffix,leaves.red,DIRECT
-host-suffix,agsvpt.com,DIRECT
-host-suffix,0ff.cc,DIRECT
-host-suffix,translate.zvo.cn,DIRECT
-host-suffix,hdsky.me,DIRECT
-
 
 # 其他网站
 host-suffix,codeyang.cn,DIRECT
